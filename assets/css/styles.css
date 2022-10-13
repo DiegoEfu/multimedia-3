@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: none;
+}
+
+html{
+    min-width: 700px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 40pt;
+    text-align: center;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-text-stroke: 2px whitesmoke;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(93,40,40,1) 0%, rgba(54,115,126,1) 98%, rgba(105,122,125,1) 100%);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Bahnschrift';
+    color: black;
+}
+
+#nav{
+    width: 100%;
+    height: 10vh;
+    background: whitesmoke;
+    position: fixed;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navlink{
+    width: 50%;
+    display: flex;
+    font-size: 26pt;
+}
+
+#logo{
+    padding-left: 25px;
+}
+
+#carrito{
+    justify-content: flex-end;
+}
+
+.link-carrito{
+    margin-right: 25px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#link-carrito{
+    font-size: 35pt;
+}
+
+.link-carrito:hover{
+    background-color: darkcyan;
+}
+
+#logo-link{
+    font-family: 'Unispace';
+}
+
+#logo-link:hover{
+    color: darkblue;
+}
+
+#bienvenida{
+    padding-top: 10vh;
+    background: url('../img/banner.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#body{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenido{
+    margin-left: 10%;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.contenido > div > h2{
+    color: darkcyan;
+    -webkit-text-stroke: 1px whitesmoke;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.tarjeta-producto{
+    margin-top: 20px;
+    background-color: black;
+    border: 3px white solid;
+    border-radius: 10px;
+    height: 400px;
+
+    display: flex;
+    color: white;
+}
+
+.tarjeta-imagen{
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.tarjeta-contenido{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.tarjeta-contenido > h3{
+    text-align: center;
+    font-size: 25pt;
+    margin-bottom: 10px;
+}
+
+.tarjeta-contenido > ul{
+    margin-left: 25px;
+}
+
+li{
+    margin-top: 5px;
+}
+
+h3.costo{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.precio{
+    color: yellow;
+}
+
+button{
+    width: 98%;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: aqua;
+
+    border-radius: 10px;
+}
+
+button > b{
+    font-size: 20pt;
+}
+
+#footer > a{
+    color: white;
+}
+
+.bubble{
+    color: black;
+}
+
+.bubble:hover, #up:hover{
+    scale: 1.1;
+}
+
+#up{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
