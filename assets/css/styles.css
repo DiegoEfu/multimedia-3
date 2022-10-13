@@ -43,17 +43,18 @@ a{
 }
 
 .navlink{
-    width: 50%;
     display: flex;
     font-size: 26pt;
 }
 
 #logo{
     padding-left: 25px;
+    width: 30%;
 }
 
 #carrito{
     justify-content: flex-end;
+    width: 70%;
 }
 
 .link-carrito{
@@ -94,6 +95,36 @@ a{
     align-items: center; 
 }
 
+#exito-carrito{
+    padding-top: 10vh;
+    background: url('../img/bg2.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#contenedor-info{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+
+#contenedor-info > ul{
+    margin-left: 30px;
+}
+
+#contenedor-info > h2 {
+    text-align: right;
+    margin-top: 20px;
+}
+
 #footer{
     width: 100%;
     background-color: black;
@@ -106,7 +137,6 @@ a{
 
 #body{
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .contenido{
@@ -115,11 +145,16 @@ a{
     width: 80%;
 }
 
+button{
+    cursor: pointer;
+}
+
 .contenido > div > h2{
     color: darkcyan;
     -webkit-text-stroke: 1px whitesmoke;
     font-size: 30pt;
     text-align: center;
+    padding-top: 10vh;
 }
 
 .tarjeta-producto{
